@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Research.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="welcomeM.html">Welcome</a>
+  <a href="#ProfileM.html">My Profile</a>
+  <a href="UsersM.html">Users</a>
+ 
+</div>
+
+<div class="main">
+  <h2>Research management</h2>
+<hr>
+<a  href="Login.html" style="float: right;" >Logout</a> 
+<div class="container">
+     <h3>USERS</h3>
+	 <button type="button" onclick="alert('you can view the profile')" style="float: right;margin:5px; width: 25%">View</button>
+ <button type="button" onclick="alert('you can edit the profile')" style="float: right;margin:5px; width: 25%">Edit</button>
+ <br><br>
+	  <label for="Department"><b>Department</b></label>
+  <input list="Departments" name="Department" id="Department">
+  <datalist id="Departments">
+    <option value="virology">
+    <option value="Technology">
+    <option value="Food Microbiology">
+    <option value="Neural Networks">
+    <option value="Wireless Networks ">
+  </datalist> 
+	 
+ 
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px;float: right">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+	 
+	 <table id ="mytable" class="w3-table-all">
+	 <thead>
+	 <tr>
+	 <th>UserID</th>
+	  <th>First Name</th>
+	   <th>Last Name</th>
+	    <th>Access Type</th>
+	    <th>Department</th>
+		</tr>
+		</thead>
+		
+</body>
+</html> 
